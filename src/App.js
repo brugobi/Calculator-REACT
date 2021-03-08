@@ -3,9 +3,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <p>
-        Hello World
-      </p>
+      Hello World - calculator for Math-magicians Inc
     </div>
   );
 }

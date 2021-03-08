@@ -1,81 +1,70 @@
-# Calculator
- 
-> React Project where I develop a calculator using Class Components, Prop-Types and deployment to gh-pages.
+# Getting Started with Create React App
 
-<!-- ![home_page](./assets/images/home.png)
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-![home_page](./assets/images/projects.png)
+## Available Scripts
 
-![home_page](./assets/images/about.png) -->
+In the project directory, you can run:
 
+### `yarn start`
 
-## Built With
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-- JavaScript(ES6)
-- React.JS
-- gh-pages
-- Node.js
-- Big.js
-- prop-types
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-## Live Version
+### `yarn test`
 
-You can click on this [link](https://brugobi.github.io/Calculator-REACT/)
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## Getting Started
+### `yarn build`
 
-### Prerequisites
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-- Node.js
-- Any Brownser
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-To get started open the directory where you will save this repo by typing on your terminal:
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-```
-$ cd <directory>
-```
+### `yarn eject`
 
-- Clone the repo typing:
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-```
-$ git clone git@github.com:brugobi/Calculator-REACT.git
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-```
-- Install dependencies:
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-```
-$ npm install
-```
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-### Usage
+## Learn More
 
-- Start the React server:
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-```
-$ npm start
-```
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-## Author
+### Code Splitting
 
-👤 **Bruna Gobi**
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-- Github: [@brugobi](https://github.com/brugobi)
-- Twitter: [@BrunaGobi2](https://twitter.com/BrunaGobi2)
-- Linkedin: [bruna-gobi](https://www.linkedin.com/in/bruna-gobi/)
+### Analyzing the Bundle Size
 
-## 🤝 Contributing
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-Contributions, issues and feature requests are welcome!
+### Making a Progressive Web App
 
-## Show your support
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-Give a ⭐️ if you like this project!
-Feel free to check the [issues page](issues/).
+### Advanced Configuration
 
-## Acknowledgments
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-- Project requested by [Microverse Program](https://www.microverse.org/).
+### Deployment
 
-## 📝 License
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-This project is [MIT](lic.url) licensed.
+### `yarn build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
