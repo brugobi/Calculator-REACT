@@ -1,9 +1,12 @@
 import './App.css';
+import Display from './Display';
+import ButtonPannel from './ButtonPannel';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      Hello World - calculator for Math-magicians Inc
+    <div>
+      <Display/>
+      <ButtonPannel/>
     </div>
   );
 }
