@@ -1,14 +1,12 @@
-import './App.css';
+import '../app.css';
 import Display from './Display';
-import ButtonPannel from './ButtonPannel';
+import ButtonPannel from './ButtonPanel';
 
-const App = () => {
-  return (
-    <div>
-      <Display/>
-      <ButtonPannel/>
-    </div>
-  );
-}
+const App = () => (
+  <div>
+    <Display />
+    <ButtonPannel />
+  </div>
+);
 
 export default App;
