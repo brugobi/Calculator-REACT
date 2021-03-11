@@ -1,2 +1,0 @@
-(this.webpackJsonpcalculator=this.webpackJsonpcalculator||[]).push([[0],{11:function(c,t,n){"use strict";n.r(t);var e=n(1),a=n.n(e),r=n(3),o=n.n(r),i=(n(8),n(9),n(0));var l=function(){return Object(i.jsx)("div",{className:"App",children:"Hello World - calculator for Math-magicians Inc"})};o.a.render(Object(i.jsx)(a.a.StrictMode,{children:Object(i.jsx)(l,{})}),document.getElementById("root"))},8:function(c,t,n){},9:function(c,t,n){}},[[11,1,2]]]);
-//# sourceMappingURL=main.1a509d8c.chunk.js.map
