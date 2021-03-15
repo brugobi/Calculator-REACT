@@ -13,15 +13,23 @@ class App extends Component {
       next: null,
       operation: null,
     };
+    this.handleClick = this.handleClick.bind(this);
+  }
+
+  handleClick(operation) {
+    const stateResult = Calculate(this.state, operation);
+    this.setState(stateResult);
   }
 
   render() {
-    <>
-      <div>
-        <Display />
-        <ButtonPannel />
-      </div>
-    </>;
+    return (
+      <>
+        <div>
+          <Display />
+          <ButtonPannel onClick={buttonName => this.handleClick(buttonName)} />
+        </div>
+      </>
+    );
   }
 }
 
