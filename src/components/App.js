@@ -1,6 +1,7 @@
 import '../App.css';
 import Display from './Display';
 import ButtonPannel from './ButtonPanel';
+import Calculate from '../logic/calculate';
 
 const App = () => (
   <>

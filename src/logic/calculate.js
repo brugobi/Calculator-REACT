@@ -1,6 +1,6 @@
 import Operate from './operate';
 
-const calculate = (calculatorData, btnName) => {
+const Calculate = (calculatorData, btnName) => {
   const { total, next, operation } = calculatorData;
 
   switch (btnName) {
@@ -81,4 +81,4 @@ const calculate = (calculatorData, btnName) => {
   return { total: next, next: null, operation: btnName };
 };
 
-export default calculate;
+export default Calculate;
