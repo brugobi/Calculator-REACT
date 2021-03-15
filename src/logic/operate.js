@@ -6,6 +6,9 @@ const operate = (numberOne, numberTwo, operation) => {
   let result;
 
   switch (operation) {
+    case '%':
+      result = (number1.times(number2)).div(100);
+      break;
     case '+':
       result = number1.plus(number2);
       break;
