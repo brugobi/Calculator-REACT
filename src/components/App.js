@@ -2,7 +2,6 @@ import '../App.css';
 import { Component } from 'react';
 import Display from './Display';
 import ButtonPannel from './ButtonPanel';
-/* eslint-disable no-unused-vars */
 import Calculate from '../logic/calculate';
 
 class App extends Component {
@@ -22,10 +21,20 @@ class App extends Component {
   }
 
   render() {
+    const { total, next, operation } = this.state;
+    let display = '0';
+    if (next) {
+      display = next;
+    } else if ((operation && operation !== '=') && total) {
+      display = total + operation;
+    } else {
+      display = total || '0';
+    }
+
     return (
       <>
         <div>
-          <Display />
+          <Display result={display} />
           <ButtonPannel onClick={buttonName => this.handleClick(buttonName)} />
         </div>
       </>
