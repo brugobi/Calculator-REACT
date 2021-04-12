@@ -18,16 +18,16 @@ class App extends Component {
   handleClick(operation) {
     const stateResult = Calculate(this.state, operation);
     this.setState(stateResult);
-    console.log(operation);
+    console.log(stateResult);
   }
 
   render() {
     const { total, next, operation } = this.state;
     let display = '0';
     if (next) {
-      display = next;
+      display = `${total}${operation}${next}`;
     } else if ((operation && operation !== '=') && total) {
-      display = total + operation;
+      display = `${total}${operation}`;
     } else {
       display = total || '0';
     }

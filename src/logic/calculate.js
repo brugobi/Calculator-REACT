@@ -71,14 +71,21 @@ const Calculate = (calculatorData, btnName) => {
       break;
     default:
       if (operation) {
+        console.log('everthing is working');
         return {
           total: next ? Operate(total, next, operation) : 'expression error',
           next: null,
           operation: btnName,
         };
       }
+      return {
+        total,
+        next: null,
+        operation: btnName,
+      };
   }
-  return { total: next, next: null, operation: btnName };
+  console.log('ops something is wrong');
+  return { total, next, operation };
 };
 
 export default Calculate;
