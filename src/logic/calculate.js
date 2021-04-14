@@ -62,16 +62,18 @@ const Calculate = (calculatorData, btnName) => {
       };
     case '%':
       if (total) {
+        // console.log('everthing is working with %');
         return {
-          total: next ? Operate(total, next, operation) : 'expression error',
+          total: next ? ((Operate(total, next, operation)) / 100) : 'expression error',
           next: null,
           operation: null,
         };
       }
+      // console.log('everthing wrong with %');
       break;
     default:
       if (operation) {
-        console.log('everthing is working');
+        // console.log('everthing is working');
         return {
           total: next ? Operate(total, next, operation) : 'expression error',
           next: null,
@@ -84,7 +86,7 @@ const Calculate = (calculatorData, btnName) => {
         operation: btnName,
       };
   }
-  console.log('ops something is wrong');
+  // console.log('ops something is wrong');
   return { total, next, operation };
 };
 
