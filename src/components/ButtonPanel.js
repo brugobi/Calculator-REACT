@@ -1,40 +1,51 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import '../index.css';
 import Button from './Button';
 
-const ButtonPanel = () => (
-  <>
-    <div>
-      <Button name="AC" />
-      <Button name="+/-" />
-      <Button name="%" />
-      <Button name="÷" />
-    </div>
-    <div>
-      <Button name="7" />
-      <Button name="8" />
-      <Button name="9" />
-      <Button name="x" />
-    </div>
-    <div>
-      <Button name="4" />
-      <Button name="5" />
-      <Button name="6" />
-      <Button name="-" />
-    </div>
-    <div>
-      <Button name="1" />
-      <Button name="2" />
-      <Button name="3" />
-      <Button name="+" />
-    </div>
-    <div>
-      <Button name="0" />
-      <Button name="." />
-      <Button name="=" />
-    </div>
+const ButtonPanel = ({ onClick }) => {
+  const handleClick = (buttonName) => {
+    onClick(buttonName);
+  };
 
-  </>
-);
+  return (
+    <>
+      <div>
+        <Button name="AC" handleOnClick={handleClick} />
+        <Button name="+/-" handleOnClick={handleClick} />
+        <Button name="%" handleOnClick={handleClick} />
+        <Button name="÷" handleOnClick={handleClick} />
+      </div>
+      <div>
+        <Button name="7" handleOnClick={handleClick} />
+        <Button name="8" handleOnClick={handleClick} />
+        <Button name="9" handleOnClick={handleClick} />
+        <Button name="x" handleOnClick={handleClick} />
+      </div>
+      <div>
+        <Button name="4" handleOnClick={handleClick} />
+        <Button name="5" handleOnClick={handleClick} />
+        <Button name="6" handleOnClick={handleClick} />
+        <Button name="-" handleOnClick={handleClick} />
+      </div>
+      <div>
+        <Button name="1" handleOnClick={handleClick} />
+        <Button name="2" handleOnClick={handleClick} />
+        <Button name="3" handleOnClick={handleClick} />
+        <Button name="+" handleOnClick={handleClick} />
+      </div>
+      <div>
+        <Button name="0" handleOnClick={handleClick} />
+        <Button name="." handleOnClick={handleClick} />
+        <Button name="=" handleOnClick={handleClick} />
+      </div>
+
+    </>
+  );
+};
+
+ButtonPanel.propTypes = {
+  onClick: PropTypes.func.isRequired,
+};
 
 export default ButtonPanel;
