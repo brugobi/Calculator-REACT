@@ -18,7 +18,6 @@ class App extends Component {
   handleClick(operation) {
     const stateResult = Calculate(this.state, operation);
     this.setState(stateResult);
-    console.log(stateResult);
   }
 
   render() {
