@@ -4,7 +4,7 @@ import '../index.css';
 import Button from './Button';
 
 const ButtonPanel = ({ onClick }) => {
-  const handleClick = buttonName => {
+  const handleClick = (buttonName) => {
     onClick(buttonName);
   };
 
