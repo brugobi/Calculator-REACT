@@ -1,3 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   text-align: center;
+}
+
+.display {
+  background-color: gray;
+  height: 100px;
+  color: white;
+  font-weight: bold;
+  padding: 0 10px;
+  text-align: right;
+}
+
+.btnPanel {
+  display: flex;
+  height: 100px;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.gray {
+  background-color: lightgray;
+}
+
+.btn25 {
+  width: 25%;
+}
+
+.btnWider {
+  width: 50%;
+}
+
+.calculator {
+  width: 600px;
+  margin: 50px auto;
 }

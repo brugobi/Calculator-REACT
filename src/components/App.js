@@ -33,7 +33,7 @@ class App extends Component {
 
     return (
       <>
-        <div>
+        <div className="calculator">
           <Display result={display} />
           <ButtonPannel onClick={this.handleClick} />
         </div>
