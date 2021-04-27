@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Nav component matches the snapshot 1`] = `
+<nav
+  aria-label="main navigation"
+  className="navbar is-transparent"
+  role="navigation"
+>
+  <div
+    className="navbar-brand"
+  >
+    <div
+      className="navbar-item"
+    >
+      <div
+        className="brand"
+      >
+        Math Magicians
+      </div>
+    </div>
+  </div>
+  <div
+    className="navbar-end"
+  >
+    <div
+      className="navbar-item"
+    >
+      <a
+        href="/"
+        onClick={[Function]}
+      >
+        Home
+      </a>
+    </div>
+    <div
+      className="navbar-item"
+    >
+      <a
+        href="/calculator"
+        onClick={[Function]}
+      >
+        Calculator
+      </a>
+    </div>
+    <div
+      className="navbar-item"
+    >
+      <a
+        href="/quote"
+        onClick={[Function]}
+      >
+        Quote
+      </a>
+    </div>
+  </div>
+</nav>
+`;
