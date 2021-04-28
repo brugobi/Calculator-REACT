@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&family=Zen+Dots&display=swap');
 
 * {
   margin: 0;
@@ -35,6 +36,20 @@
 
 .ZenDotsFont {
   font-family: 'Zen Dots', cursive;
+}
+
+.home h1 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.home,
+.quote {
+  width: 65vw;
+  margin: 10% auto;
+  text-align: justify;
+  font-family: 'New Tegomin', serif;
+  color: #fedebe;
 }
 
 .display {

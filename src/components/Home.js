@@ -1,8 +1,8 @@
 import React from 'react';
 
 const Home = () => (
-  <div>
-    <h1>Welcome to our page!</h1>
+  <div className="home">
+    <h1 className="font20px font-orange">Welcome to our page!</h1>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
       incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
