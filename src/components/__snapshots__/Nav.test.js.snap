@@ -3,7 +3,7 @@
 exports[`Nav component matches the snapshot 1`] = `
 <nav
   aria-label="main navigation"
-  className="navbar is-transparent"
+  className="navbar"
   role="navigation"
 >
   <div
@@ -13,19 +13,20 @@ exports[`Nav component matches the snapshot 1`] = `
       className="navbar-item"
     >
       <div
-        className="brand"
+        className="brand font-orange font20px ZenDotsFont"
       >
         Math Magicians
       </div>
     </div>
   </div>
   <div
-    className="navbar-end"
+    className="navbar-end font-orange ZenDotsFont"
   >
     <div
       className="navbar-item"
     >
       <a
+        className="nav-link font-orange"
         href="/"
         onClick={[Function]}
       >
@@ -36,6 +37,7 @@ exports[`Nav component matches the snapshot 1`] = `
       className="navbar-item"
     >
       <a
+        className="nav-link font-orange"
         href="/calculator"
         onClick={[Function]}
       >
@@ -46,6 +48,7 @@ exports[`Nav component matches the snapshot 1`] = `
       className="navbar-item"
     >
       <a
+        className="nav-link font-orange"
         href="/quote"
         onClick={[Function]}
       >

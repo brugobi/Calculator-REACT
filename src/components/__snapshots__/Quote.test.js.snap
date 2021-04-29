@@ -1,8 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Quote component matches the snapshot 1`] = `
-<div>
-  <p>
+<div
+  className="quote font-orange"
+>
+  <p
+    className="font20px"
+  >
     "Why Do We Fall, Sir? So That We Can Learn To Pick Ourselves Up." -
     <i>
       Batman Begins
