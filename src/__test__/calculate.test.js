@@ -66,5 +66,4 @@ describe('calculate', () => {
     result = calculate(result, '+');
     expect(result.total).toEqual('expression error');
   });
-
 });
