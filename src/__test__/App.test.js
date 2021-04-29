@@ -3,22 +3,22 @@ import React from 'react';
 import { shallow } from 'enzyme';
 import App from '../components/App';
 
-describe('renders correctly components', () => {
+describe('<App />', () => {
   let wrapper;
 
   beforeEach(() => {
     wrapper = shallow(<App />);
   });
 
-  it('render Navbar component', () => {
+  it('renders three <Nav /> components', () => {
     expect(wrapper.find('Nav')).toBeTruthy();
   });
 
-  it('render Display component', () => {
+  it('renders three <Display /> components', () => {
     expect(wrapper.find('Display')).toBeTruthy();
   });
 
-  it('render the ButtonPanel component', () => {
+  it('renders three <ButtonPanel /> components', () => {
     expect(wrapper.find('ButtonPanel')).toBeTruthy();
   });
 });
