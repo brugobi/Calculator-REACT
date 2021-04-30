@@ -14,7 +14,7 @@
 - Big.js
 - prop-types
 - Jest
-- Enzime
+- Enzyme
 
 ## Live Version
 
