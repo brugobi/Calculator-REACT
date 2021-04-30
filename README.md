@@ -13,6 +13,8 @@
 - Node.js
 - Big.js
 - prop-types
+- Jest
+- Enzime
 
 ## Live Version
 
@@ -48,6 +50,14 @@ $ npm install
 
 ```
 $ npm start
+```
+
+### Test
+
+- To run the tests:
+
+```
+$ npm test
 ```
 
 ## Author
