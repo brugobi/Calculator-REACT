@@ -1,8 +1,12 @@
 import '../App.css';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import { Component } from 'react';
 import Display from './Display';
 import ButtonPannel from './ButtonPanel';
 import Calculate from '../logic/calculate';
+import Nav from './Nav';
+import Home from './Home';
+import Quote from './Quote';
 
 class App extends Component {
   constructor(props) {
@@ -32,12 +36,25 @@ class App extends Component {
     }
 
     return (
-      <>
-        <div>
-          <Display result={display} />
-          <ButtonPannel onClick={this.handleClick} />
-        </div>
-      </>
+      <BrowserRouter>
+        <>
+          <Nav />
+          <Switch>
+            <Route
+              exact
+              path="/calculator"
+              render={() => (
+                <div className="calculator">
+                  <Display result={display} />
+                  <ButtonPannel onClick={this.handleClick} />
+                </div>
+              )}
+            />
+            <Route exact path="/" component={Home} />
+            <Route exact path="/quote" component={Quote} />
+          </Switch>
+        </>
+      </BrowserRouter>
     );
   }
 }

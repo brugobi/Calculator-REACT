@@ -2,11 +2,7 @@
  
 > React Project where I develop a calculator using Class Components, Prop-Types and deployment to gh-pages.
 
-<!-- ![home_page](./assets/images/home.png)
-
-![home_page](./assets/images/projects.png)
-
-![home_page](./assets/images/about.png) -->
+![calculator_page](./src/images/calculator.png)
 
 
 ## Built With
@@ -17,6 +13,8 @@
 - Node.js
 - Big.js
 - prop-types
+- Jest
+- Enzyme
 
 ## Live Version
 
@@ -52,6 +50,14 @@ $ npm install
 
 ```
 $ npm start
+```
+
+### Test
+
+- To run the tests:
+
+```
+$ npm test
 ```
 
 ## Author

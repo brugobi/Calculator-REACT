@@ -1,3 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&family=Zen+Dots&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   text-align: center;
+}
+
+.navbar {
+  background-color: black !important;
+}
+
+.nav-link {
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+}
+
+.nav-link:hover {
+  color: orange;
+  opacity: 60%;
+  text-decoration: underline;
+}
+
+.font-orange {
+  color: orange;
+}
+
+.font20px {
+  font-size: 25px;
+}
+
+.ZenDotsFont {
+  font-family: 'Zen Dots', cursive;
+}
+
+.home h1 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.home,
+.quote {
+  width: 65vw;
+  margin: 10% auto;
+  text-align: justify;
+  font-family: 'New Tegomin', serif;
+  color: #fedebe;
+}
+
+.display {
+  background-color: gray;
+  height: 100px;
+  color: white;
+  font-weight: bold;
+  padding: 0 10px;
+  text-align: right;
+  font-size: 50px;
+}
+
+.btnPanel {
+  display: flex;
+  height: 100px;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.gray {
+  background-color: lightgray;
+}
+
+.btn25 {
+  width: 25%;
+}
+
+.btnWider {
+  width: 50%;
+}
+
+.calculator {
+  width: 600px;
+  margin: 0 auto;
 }

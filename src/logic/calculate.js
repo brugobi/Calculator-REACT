@@ -51,7 +51,7 @@ const Calculate = (calculatorData, btnName) => {
     case '=':
       if (operation === '÷' && next === '0') {
         return {
-          total: 'there is no division by zero',
+          total: 'no division by zero',
           next: null,
           operation: null,
         };

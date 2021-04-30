@@ -10,34 +10,34 @@ const ButtonPanel = ({ onClick }) => {
 
   return (
     <>
-      <div>
-        <Button name="AC" handleOnClick={handleClick} />
-        <Button name="+/-" handleOnClick={handleClick} />
-        <Button name="%" handleOnClick={handleClick} />
-        <Button name="÷" handleOnClick={handleClick} />
+      <div className="btnPanel">
+        <Button name="AC" handleOnClick={handleClick} wide="btn25" color="gray" />
+        <Button name="+/-" handleOnClick={handleClick} wide="btn25" color="gray" />
+        <Button name="%" handleOnClick={handleClick} wide="btn25" color="gray" />
+        <Button name="÷" handleOnClick={handleClick} wide="btn25" color="orange" />
       </div>
-      <div>
-        <Button name="7" handleOnClick={handleClick} />
-        <Button name="8" handleOnClick={handleClick} />
-        <Button name="9" handleOnClick={handleClick} />
-        <Button name="x" handleOnClick={handleClick} />
+      <div className="btnPanel">
+        <Button name="7" handleOnClick={handleClick} wide="btn25" color="gray" />
+        <Button name="8" handleOnClick={handleClick} wide="btn25" color="gray" />
+        <Button name="9" handleOnClick={handleClick} wide="btn25" color="gray" />
+        <Button name="x" handleOnClick={handleClick} wide="btn25" color="orange" />
       </div>
-      <div>
-        <Button name="4" handleOnClick={handleClick} />
-        <Button name="5" handleOnClick={handleClick} />
-        <Button name="6" handleOnClick={handleClick} />
-        <Button name="-" handleOnClick={handleClick} />
+      <div className="btnPanel">
+        <Button name="4" handleOnClick={handleClick} wide="btn25" color="gray" />
+        <Button name="5" handleOnClick={handleClick} wide="btn25" color="gray" />
+        <Button name="6" handleOnClick={handleClick} wide="btn25" color="gray" />
+        <Button name="-" handleOnClick={handleClick} wide="btn25" color="orange" />
       </div>
-      <div>
-        <Button name="1" handleOnClick={handleClick} />
-        <Button name="2" handleOnClick={handleClick} />
-        <Button name="3" handleOnClick={handleClick} />
-        <Button name="+" handleOnClick={handleClick} />
+      <div className="btnPanel">
+        <Button name="1" handleOnClick={handleClick} wide="btn25" color="gray" />
+        <Button name="2" handleOnClick={handleClick} wide="btn25" color="gray" />
+        <Button name="3" handleOnClick={handleClick} wide="btn25" color="gray" />
+        <Button name="+" handleOnClick={handleClick} wide="btn25" color="orange" />
       </div>
-      <div>
-        <Button name="0" handleOnClick={handleClick} />
-        <Button name="." handleOnClick={handleClick} />
-        <Button name="=" handleOnClick={handleClick} />
+      <div className="btnPanel">
+        <Button name="0" handleOnClick={handleClick} wide="btnWider" color="gray" />
+        <Button name="." handleOnClick={handleClick} wide="btn25" color="gray" />
+        <Button name="=" handleOnClick={handleClick} wide="btn25" color="orange" />
       </div>
 
     </>
